@@ -1,0 +1,32 @@
+ .ResultDetailTD {
+     text-align: center;
+     padding-top: 1px;
+     padding-bottom: 1px;
+     vertical-align: middle;
+     padding-left: 2px;
+     padding-right: 1px;
+ }
+
+ .page {
+     width: 297mm;
+     /* min-height: 205mm;*/
+ }
+
+ /*.subpage {
+       
+        /*border: 1px red solid;
+        min-height:200mm;*/
+
+ }
+
+ */ @page {
+     size: A4 landscape;
+     margin: 0;
+ }
+
+ @media print {
+     .page {
+         margin: 0;
+         page-break-after: always;
+     }
+ }
